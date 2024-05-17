@@ -1,0 +1,8 @@
+﻿---
+- name: Updated default request to add network policies
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  roles:
+    - { role: default-project-request }
