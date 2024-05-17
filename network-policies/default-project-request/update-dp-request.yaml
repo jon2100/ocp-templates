@@ -1,5 +1,5 @@
 ﻿---
-- name: Updated default request to add network policies
+- name: Setting up alertmanager for OCP
   hosts: localhost
   connection: local
   gather_facts: false
