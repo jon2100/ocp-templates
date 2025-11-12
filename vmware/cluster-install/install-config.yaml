@@ -1,3 +1,4 @@
+
 additionalTrustBundlePolicy: Proxyonly
 apiVersion: v1
 baseDomain: $BASE_DOMAIN
@@ -52,6 +53,6 @@ platform:
       server: $VCENTER
       user: $VC_USER_NAME
 publish: External
-pullSecret: '*REDACTED*'
+pullSecret: 'REDACTED'
 sshKey: |
-  *REDACTED*
+  REDACTED

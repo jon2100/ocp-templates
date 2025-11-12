@@ -8,17 +8,17 @@ metadata:
     cluster.open-cluster-management.io/credentials: ""
     cluster.open-cluster-management.io/type: aws
 stringData:
-  aws_access_key_id: *REDACTED*
-  aws_secret_access_key: *REDACTED*
+  aws_access_key_id: REDACTED
+  aws_secret_access_key: REDACTED
   baseDomain: foo.com
   pullSecret: >
-    *REDACTED*
+    REDACTED
   ssh-privatekey: |
     -----BEGIN OPENSSH PRIVATE KEY-----
     
     -----END OPENSSH PRIVATE KEY-----
   ssh-publickey: >
-    *REDACTED*
+    REDACTED
   httpProxy: ""
   httpsProxy: ""
   noProxy: ""
